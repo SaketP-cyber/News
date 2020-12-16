@@ -5,7 +5,7 @@ let newsAccordion = document.getElementById("newsAccordion");
 
 
 const xhr = new XMLHttpRequest();
-xhr.open('GET', 'https://gnews.io/api/v4/top-headlines?token=628208cf8556f1cca25f20372535d5e2&lang=en', true);
+xhr.open('GET', 'https://gnews.io/api/v4/top-headlines?token=.....&lang=en', true);
 xhr.onload = function () {
     if (this.status === 200) {
         let json = JSON.parse(this.responseText);
